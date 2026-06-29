@@ -10,12 +10,6 @@ body {
     background-color: rgb(34, 31, 31);
 }
 
-/* body {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 20px;
-} */
  body {
     display: flex;
     flex-wrap: wrap;
@@ -97,20 +91,6 @@ h3 {
     color: black;
 }
 
-/* Tablet */
-/* @media (min-width: 768px) {
-
-    body {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 30px;
-    }
-
-    .card {
-        max-width: none;
-    }
-    
-
-} */
  @media (min-width:768px) {
     body {
         padding:30px;
@@ -123,13 +103,6 @@ h3 {
     }
 }
 
-/* Desktop */
-/* @media (min-width: 1024px) {
-    body {
-        grid-template-columns: repeat(3, 1fr);
-        padding: 40px;
-    }
-} */
  @media (min-width:1024px) {
     body {
         padding:40px;
